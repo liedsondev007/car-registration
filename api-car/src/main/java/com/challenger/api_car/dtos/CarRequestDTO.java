@@ -6,12 +6,15 @@ import lombok.Data;
 @Data
 public class CarRequestDTO {
 
-    @NotBlank
+    @NotBlank(message = "Modelo é obrigatório")
     private String model;
-    @NotBlank
+
+    @NotBlank(message = "Marca é obrigatória")
     private String brand;
-    @NotBlank
+
+    @NotBlank(message = "Cor é obrigatória")
     private String color;
-    @NotBlank
+
+    @NotBlank(message = "Ano de fabricação é obrigatório")
     private String fabricationYear;
 }
