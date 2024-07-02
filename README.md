@@ -49,14 +49,14 @@ Retorna os detalhes de um carro específico.
 - Resposta de Sucesso:
  - Status: `200 OK`
 - Corpo da Resposta:
-  ```
-  {
-  "chassiId": 123,
-  "model": "New Fiesta",
-  "brand": "Ford",
-  "color": "Azul",
-  "fabricationYear": "2014/2015"
-  }
+   ```
+   {
+   "chassiId": 123,
+   "model": "New Fiesta",
+   "brand": "Ford",
+   "color": "Azul",
+   "fabricationYear": "2014/2015"
+   }
 - Resposta de Erro:
 - Status: `404 Not Found se o carro não for encontrado.`
 
